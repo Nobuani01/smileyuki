@@ -1,0 +1,63 @@
+.container {
+  width: 500px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  background-color: none;
+  height: 100px;
+  display: flex;
+}
+
+.header-left {
+  display:table-cell;
+  vertical-align: top;
+  background-color: none;
+  height: 100px;
+  width: 80%;
+}
+
+.header-left p {
+  font-size: 20px;
+  font-family: cursive;
+}
+
+.header-left a {
+  text-decoration: none;
+  color: black;
+}
+
+.header-right {
+  display: table-cell;
+  vertical-align: top;
+  background-color: none;
+  height: 100px;
+  width: 20%;
+}
+
+.header-right ul {
+  padding-top: 1px;
+}
+
+.header-right li {
+  list-style-type: none;
+  margin: 5px 0;
+  font-size: 15px;
+
+}
+
+.header-right a {
+  text-decoration: none;
+  color: black;
+}
+
+.main {
+  margin: 10px 0;
+}
+
+.top-picture {
+  width: 500px;
+  height: auto;
+}
